@@ -1,12 +1,12 @@
 {
   "title": "PYCAMP 2.0",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "text": "A complete 5-Day Python Workshop Series to Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with numpy.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Register Now"
     },
     {
-      "title": "Learn more",
+      "title": "Download Brochure",
       "color": "#fff"
     }
   ]

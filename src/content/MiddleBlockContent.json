@@ -1,6 +1,7 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
+    "title": "About The Event",
+    "text": "This two-day class will introduce Python, the batteries included programming language designed to emphasize code readability. Learners will gain the working knowledge needed to start programming, debugging and using Python in everyday tasks.",
+    "text": "We'll cover the core Python language and the standard library in detail. This course will cover various skills including text manipulation, modular programming, working with and retrieving data, interacting with files on your computer, and using some of the more popular third-party libraries (and getting them installed when and where we need them). The goal is to get participants up and running with Python in as short a time as possible.",
     "button": "Get started"
   }
   

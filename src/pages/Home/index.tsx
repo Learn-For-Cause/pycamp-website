@@ -5,6 +5,7 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import Accordion from "../../components/FAQ/Accordion";
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
@@ -47,6 +48,7 @@ const Home = () => {
         id="timeline"
       /> */}
             <Timeliner />
+            <Accordion />
             <Contact
                 title={ContactContent.title}
                 content={ContactContent.text}

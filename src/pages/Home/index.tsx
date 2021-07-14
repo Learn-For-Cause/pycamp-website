@@ -6,6 +6,10 @@ import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import Accordion from "../../components/FAQ/Accordion";
+import SpeakerCard from "../../components/Speaker/SpeakerCard.js";
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
+import 'bootstrap-css-only/css/bootstrap.min.css'; 
+import 'mdbreact/dist/css/mdb.css';
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
@@ -47,6 +51,7 @@ const Home = () => {
         icon="waving.svg"
         id="timeline"
       /> */}
+            <SpeakerCard />
             <Timeliner />
             <Accordion />
             <Contact

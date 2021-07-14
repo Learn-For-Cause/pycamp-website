@@ -58,7 +58,7 @@ export default function ControlledAccordions() {
 
     return (
         <div className={classes.root}>
-            <h1 style={{ paddingTop: 20, paddingBottom: 20 }}>Frequently Asked Questions</h1>
+            <h1 style={{ paddingTop: 60, paddingBottom: 30 }}>Frequently Asked Questions</h1>
             {data.map(accordion => {
                 const { id, heading, secondaryHeading, details } = accordion;
                 return (
